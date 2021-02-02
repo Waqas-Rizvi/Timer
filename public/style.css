@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(39, 139, 0);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: wheat;
+    font-size: 3.5em;
+}
+h3{
+    color: wheat;
+    font-size: 2.5em;
+}
+.sub{
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn{
+    padding: 10px;
+    margin: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: wheat;
+    color:  rgb(39, 139, 0);
+    cursor: pointer;
+}
+#hour{
+    padding: 10px;
+    font-size: 2em;
+    width: 60px;
+}
+#min{
+    padding: 10px;
+    font-size: 2em;
+}
+#sec{
+    padding: 10px;
+    font-size: 2em;
+}
