@@ -7,15 +7,14 @@ h1{
     justify-content: center;
     flex-wrap: wrap;
     color: wheat;
-    font-size: 3.5em;
+    font-size: 2em;
+    position: relative;
+    top: 42px;
 }
 h3{
     color: wheat;
-    font-size: 2.5em;
 }
 .sub{
-    /* display: flex; */
-    /* justify-content: center; */
     margin: 20px;
 }
 .main{
@@ -29,24 +28,40 @@ h3{
     flex-wrap: wrap;
 }
 .btn{
-    padding: 10px;
-    margin: 20px;
-    font-size: 2em;
+    padding: 10px 80px;
+    margin: 10px;
+    font-size: 1em;
     font-weight: bold;
     background-color: wheat;
     color:  rgb(39, 139, 0);
     cursor: pointer;
 }
 #hour{
-    padding: 10px;
-    font-size: 2em;
-    width: 60px;
+    padding: 5px;
+    font-size: 16px;
+    width: 40px;
 }
 #min{
-    padding: 10px;
-    font-size: 2em;
+    padding: 5px;
+    font-size: 16px;
+    position: relative;
+    left: 8px;
 }
 #sec{
-    padding: 10px;
-    font-size: 2em;
+    padding: 5px;
+    font-size: 16px;
+    position: relative;
+    left: 13px;
+}
+#pause{
+    display: none;
+    padding: 10px 80px;
+}
+#reset{
+    display: none;
+    padding: 10px 35px;
+}
+#resume{
+    display: none;
+    padding: 10px 35px;
 }

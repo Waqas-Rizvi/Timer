@@ -15,8 +15,31 @@ function timer() {
 
 function start() {
     paus = setInterval(timer, 1000)
+    document.getElementById("start").style.display = "none"
+    document.getElementById("pause").style.display = "inline-block"
+    document.getElementById("reset").style.display = "none"
 }
 
 function pause() {
     clearInterval(paus)
+    document.getElementById("resume").style.display = "inline-block"
+    document.getElementById("pause").style.display = "none"
+    document.getElementById("reset").style.display = "inline-block"
+}
+
+function resume() {
+    paus = setInterval(timer, 1000)
+    document.getElementById("pause").style.display = "inline-block"
+    document.getElementById("resume").style.display = "none"
+    document.getElementById("reset").style.display = "none"
+}
+
+function reset(){
+    document.getElementById("start").style.display = "inline-block"
+    document.getElementById("pause").style.display = "none"
+    document.getElementById("reset").style.display = "none"
+    document.getElementById("resume").style.display = "none"
+    a.value = 00
+    b.value = 00
+    c.value = "00"
 }
